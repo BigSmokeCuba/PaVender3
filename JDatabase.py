@@ -42,12 +42,13 @@ class JsonDatabase(object):
     def create_admin(self,name):
         self.items[name] = {'dir': '',
                      'cloudtype': 'moodle',
-                     'moodle_host': '---',
-                     'moodle_repo_id': 4,
-                     'moodle_user': '---',
-                     'moodle_password': '---',
+                     'moodle_host': 'https://eduvirtual.uho.edu.cu/',
+                     'moodle_repo_id': 3, 
+
+                     'moodle_user': 'yeima',
+                     'moodle_password': '*Yordan1',
                      'isadmin': 1,
-                     'zips': 100,
+                     'zips': 200,
                      'uploadtype':'evidence',
                      'proxy':'',
                      'tokenize':0}
